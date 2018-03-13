@@ -1,0 +1,11 @@
+calculate free horizontal space on each side: w
+get the smaller image width : ws
+
+if ws/2 > w then show w only of it and 2 of the larger image
+else then show ws/2 of it and ws/2 of the larger image
+
+the left of the right one will be
+	left of the center - its width + 5
+
+the left of the right one will be
+	left of the center + center width - 5
