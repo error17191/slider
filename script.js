@@ -19,16 +19,7 @@ for (i = 1; i <= 16; i++) {
                 return a.order - b.order;
             });
             initSlideShow();
-            setInterval(runSlideShow,10000);
-            // setInterval(function () {
-            //     if (slider.currentSlide == slides.length - 1) {
-            //         slider.currentSlide = 0;
-            //     } else {
-            //         slider.currentSlide++;
-            //     }
-            //     runSlider();
-            // }, 5000);
-
+            setInterval(runSlideShow,4000);
         }
     }
     img.src = i + '.jpg';
